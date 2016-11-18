@@ -45,7 +45,7 @@ public class UtubeThumbs {
     private static String getFilterURL(String url) {
 		 
       Pattern compiledPattern = Pattern.compile(utubeRegex);
-	  Matcher matcher = compiledPattern.matcher(url);
+      Matcher matcher = compiledPattern.matcher(url);
 
 		 if(matcher.find()){
 		     return url.replace(matcher.group(), "");
