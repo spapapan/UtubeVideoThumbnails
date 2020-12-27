@@ -1,4 +1,7 @@
 public class YoutubeChannelHeaderImage {
+  
+    public final static String YOUTUBE_HEADER_IMAGE_START_URL = "yt3.ggpht.com/";
+    public final static String YOUTUBE_HEADER_IMAGE_END_URL = "-no-nd-rj";
  
     public static void getYoutubeChannelHeaderImage(String channelUrl) throws IOException
     {
